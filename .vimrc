@@ -50,6 +50,9 @@ set virtualedit=onemore
 set ignorecase
 set smartcase
 
+" bash-like file completion
+set wildmode=longest,list
+
 " remap ESC
 inoremap <silent> jj <ESC>
 
